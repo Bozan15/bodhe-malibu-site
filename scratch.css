@@ -1,0 +1,45 @@
+/* Custom background (meets requirement) */
+body {
+    margin: 0;
+    font-family: "Trebuchet MS", Arial, sans-serif; /* font family requirement */
+    color: #1f2937; /* font color requirement */
+    background: linear-gradient(180deg, #f8fafc, #e2e8f0);
+  }
+  
+  /* Page layout blocks (div styling requirement) */
+  .wrapper {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 24px;
+  }
+  
+  .block {
+    background: white;
+    border: 1px solid #d1d5db;
+    border-radius: 14px;
+    padding: 18px;
+    margin: 16px 0;
+  }
+  
+  .navbar-scratch {
+    background: #0f172a;
+    color: white;
+    padding: 14px 24px;
+  }
+  
+  .navbar-scratch a {
+    color: #cbd5e1;
+    text-decoration: none;
+    margin-right: 14px;
+  }
+  
+  .navbar-scratch a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .small-note {
+    color: #475569;
+    font-size: 0.95rem;
+  }
+  
